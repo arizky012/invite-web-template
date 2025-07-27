@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Name of Man & Name of Woman</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,24 +21,37 @@
     <link rel="stylesheet" href="countdown/themes/default.css" />
     <script src="countdown/simplyCountdown.umd.js"></script>
 
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
     <!-- defgult css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> 
+    
   </head>
   <body>
     <section
       id="hero"
       class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center"
     >
-      <main>
+      <main class="main">
         <h4>Kepada Bapak/Ibu/Saudara/i</h4>
-        <h1>Pria & Wanita</h1>
+        <div class="blur-text-container">
+          <h1>
+            <span class="blur-text pria">Pria</span>
+            <span>&</span>
+            <span class="blur-text wanita">Wanita</span>
+          </h1>
+          <!-- <h1>&</h1> -->
+        </div>
         <p>Akan melangsungkan pernikahan dalam :</p>
         <div class="simply-countdown"></div>
-        <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+        <a href="#home" class="btn btn-lg mt-4">Lihat Undangan</a>
       </main>
     </section>
 
-    <nav class="navbar sticky-top navbar-expand-md mynavbar">
+    <nav
+      class="navbar sticky-top navbar-expand-md mynavbar bg-body-transparant"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">Pria&Wanita</a>
         <button
@@ -86,12 +99,129 @@
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <h2>Acara pernikahan</h2>
-            <h3>Diselenggarakan pada day month year di city, province</h3>
+            <h3>Diselenggarakan pada 21 Juni 2026 di Jakarta</h3>
             <p>
               Oleh karena itu, dengan segala hormat, kami bermaksud untuk
               mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
               kami.
             </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Name of Groom</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  nesciunt, soluta eius laboriosam nulla, odit dignissimos,
+                  officia cum qui facere aperiam deserunt? Nobis exercitationem
+                  voluptates recusandae autem fugit. Perferendis, neque.
+                </p>
+                <p>
+                  Putra dari Bpk. Lorem <br />
+                  dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/man.png"
+                  alt="Groom"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/woman.png"
+                  alt="Groom"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Name of Bride</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  nesciunt, soluta eius laboriosam nulla, odit dignissimos,
+                  officia cum qui facere aperiam deserunt? Nobis exercitationem
+                  voluptates recusandae autem fugit. Perferendis, neque.
+                </p>
+                <p>
+                  Putra dari Bpk. Lorem <br />
+                  dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat : Istana Negara <br> Jl. Veteran, RT.2/RW.3, Gambir, Kecamatan Gambir, Kota Jakarta Pusat</p>
+            <a href="https://maps.app.goo.gl/ieo5ff8uyAfjiK3K6" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal, Manakala tiba ditujuan namun tidak ada tanda-tanda pernikahan, boleh jadi Anda salah tempat, atau salah jadwal </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 21 Juni 2026</span>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Resepsi
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 21 Juni 2026</span>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
           </div>
         </div>
       </div>
