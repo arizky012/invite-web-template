@@ -100,7 +100,8 @@ body {
 
 .home h2,
 .info h2,
-.story h2 {
+.story h2,
+.galery h2 {
   color: var(--pink);
   font-family: "Sacramento";
   font-size: 5rem;
@@ -186,11 +187,13 @@ body {
 
 /* Story */
 
-.story {
+.story,
+.galery {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
-.story span {
+.story span,
+.galery span {
   text-transform: uppercase;
   color: #666;
   font-size: 0, 9rem;
@@ -198,7 +201,8 @@ body {
   display: block;
   margin-bottom: 1rem;
 }
-.story p {
+.story p,
+.galery p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -322,6 +326,12 @@ body {
   .home .heart {
     transform: translateX(-50%) translateY(45px);
   }
+}
+
+/* Galery */
+
+.galery .row {
+  background-color: #f5f5f5;
 }
 
 /* For laptop */
